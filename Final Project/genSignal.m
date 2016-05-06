@@ -1,0 +1,33 @@
+load gettysburg
+load moreSignals
+x10=genChannel(s,0,1,10);
+x10_ti=genChannel(s,1,1,10);
+x10_tv=genChannel(s,2,1,10);
+x6=genChannel(s,0,1,6);
+x6_ti=genChannel(s,1,1,6);
+x6_tv=genChannel(s,2,1,6);
+x7=genChannel(s,0,1,7);
+x7_ti=genChannel(s,1,1,7);
+x7_tv=genChannel(s,2,1,7);
+x8=genChannel(s,0,1,8);
+x8_ti=genChannel(s,1,1,8);
+x8_tv=genChannel(s,2,1,8);
+x9=genChannel(s,0,1,9);
+x9_ti=genChannel(s,1,1,9);
+x9_tv=genChannel(s,2,1,9);
+x11=genChannel(s,0,1,11);
+x11_ti=genChannel(s,1,1,11);
+x11_tv=genChannel(s,2,1,11);
+x12=genChannel(s,0,1,12);
+x12_ti=genChannel(s,1,1,12);
+x12_tv=genChannel(s,2,1,12);
+x13=genChannel(s,0,1,13);
+x13_ti=genChannel(s,1,1,13);
+x13_tv=genChannel(s,2,1,13);
+x5=genChannel(s,0,1,5);
+x5_ti=genChannel(s,1,1,5);
+x5_tv=genChannel(s,2,1,5);
+x0=genChannel(s,0,1,0);
+x0_ti=genChannel(s,1,1,0);
+x0_tv=genChannel(s,2,1,0);
+save('AllSignals','x0','x0_ti','x0_tv','x5','x5_ti','x5_tv','x6','x6_ti','x6_tv','x7','x7_ti','x7_tv','x8','x8_ti','x8_tv','x9','x9_ti','x9_tv','x10','x10_ti','x10_tv','x12','x12_ti','x12_tv','x11','x11_ti','x11_tv','x13','x13_ti','x13_tv','x15','x15_ti','x15_tv','x20','x20_ti','x20_tv')
